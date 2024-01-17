@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Upload widget</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-section">
+        <h1>Upload Files</h1>
+        <p>Upload files you want to share with your team members.</p>
+        <p>PDF, Images and Videos are allowed.</p>
+      </div>
+      <div class="drop-section">
+        <div class="col">
+          <div class="cloud-icon">
+            <img
+              src="./icons/pngtree-upload-cloud-vector-icon-png-image_4279412.jpg"
+              width="100px"
+              alt="cloud"
+            />
+          </div>
+          <span>Drag and Drop your files here</span>
+          <span>OR</span>
+          <button class="file-selector">Browse Files</button>
+          <input type="file" class="file-selector-input" multiple />
+        </div>
+        <div class="col">
+          <div class="drop-here">Drop Here</div>
+        </div>
+      </div>
+      <div class="list-section">
+        <div class="list-title">Uploaded Files</div>
+        <div class="list">
+          <li class="in-prog"></li>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
